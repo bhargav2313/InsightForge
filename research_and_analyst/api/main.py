@@ -1,7 +1,20 @@
+from pathlib import Path
+
 from fastapi import FastAPI
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
+
+ROOT = Path(__file__).resolve().parents[2]
 
 app = FastAPI(title="Research And Analyst API")
+
+# Serve static files from the project `static/` folder
+app.mount("/static", StaticFiles(directory=str(ROOT / "static")), name="static")
+
+
+@app.get("/")
+async def index():
+    return FileResponse(str(ROOT / "static" / "index.html"))
 
 
 @app.get("/health")

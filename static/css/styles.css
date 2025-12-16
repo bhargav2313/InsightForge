@@ -114,3 +114,8 @@ a:hover {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* API status helpers */
+#api-status { margin: 12px 0; font-weight: 600; }
+#api-status.ok { color: #059669; }     /* green */
+#api-status.error { color: #dc2626; }  /* red */

@@ -1,0 +1,14 @@
+{"timestamp": "2025-12-16T06:21:44.628261Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-12-16T06:21:44.631853Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-12-16T06:21:44.633474Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-12-16T06:21:44.636332Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\pc\\InsightForge\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-12-16T06:21:44.641706Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-12-16T06:21:44.643452Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-1.5-flash-latest", "timestamp": "2025-12-16T06:21:56.002112Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-1.5-flash-latest", "timestamp": "2025-12-16T06:21:56.101028Z", "level": "info", "event": "LLM loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+{"provider": "google", "model": "gemini-1.5-flash-latest", "timestamp": "2025-12-16T06:22:14.728872Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-1.5-flash-latest", "timestamp": "2025-12-16T06:22:14.728872Z", "level": "info", "event": "LLM loaded successfully"}
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+{"provider": "openai", "model": "gpt-3.5-turbo", "timestamp": "2025-12-16T06:30:05.206663Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-3.5-turbo", "timestamp": "2025-12-16T06:30:07.000647Z", "level": "info", "event": "LLM loaded successfully"}
